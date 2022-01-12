@@ -7,6 +7,64 @@ title = Network Latency Grapher
 remark = Welcome to the SmokePing website of WORKS Company. \
          Here you will learn all about the latency of our network.
 
+
++ Local
+
+menu = Local
+title = Local Network
+#parents = owner:/Test/James location:/
+
+++ LocalMachine
+
+menu = Local Machine
+title = This host
+host = localhost
+#alerts = someloss
+
+++ DefaultGateway
+
+menu = Default Gateway
+title = Default Gateway
+host = 192.168.220.1
+
+++ WAN1-Router
+menu = WAN1 Router
+title = WAN1 Router
+host = 192.168.0.1
+
+++ WAN2-Router
+menu = WAN2 Router
+title = WAN2 Router
+host = 192.168.1.1
+
+
++ PAACK-GCP
+menu = PAACK-GCP
+title = PAACK-GCP
+
+++ paack-co
+menu = paack.co
+title = paack.co
+host = paack.co
+
+
+++ WMS-PRD
+menu = WMS-PRD
+title =  WMS-PRD
+host = 35.205.43.224
+
+++ WMS-STG
+menu = WMS-STG
+title =  WMS-STG
+host = 35.195.193.187
+
+++ WMS-SND
+menu = WMS-SND
+title =  WMS-SND
+host = 34.76.96.167
+
+
+
 + InternetSites
 
 menu = Internet Sites
